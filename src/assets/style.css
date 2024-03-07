@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+a {
+    text-align: center;
+    font-family: 'Poppins';
+    text-decoration: None;
+    color: black;
+    background: transparent;
+}
+
+body {
+    display: block;
+    background: #F9F9F9;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #DBD4CA;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 10px 0px;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.cadastro {
+    background: #F9F9F9;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+.main_dois {
+    display: block;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.secao {
+    font-family: 'Roboto';
+    max-width: 600px;
+}
+
+.secao div {
+    display: grid;
+    font-weight: 100;
+    margin: 40px 0 0 0;
+}
+
+.secao div h1 {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 42px;
+}
+
+.secao p {
+    padding: 20px 0;
+    font-size: 13px;
+}
+
+.div_imagens {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_imagens a {
+    background-color: #A0A48B;
+}
+
+footer {
+    margin: 40px auto;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+form {
+    display: block;
+}
+
+input {
+    color: #333333;
+    background-color: #FFFFFF;
+    border: 1px solid #333333;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.btn_input {
+    display: block;
+    padding: 5px 10px;
+    background: #DBD4CA;
+    max-width: 150px;
+}
